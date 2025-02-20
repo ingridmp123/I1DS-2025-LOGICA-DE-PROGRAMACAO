@@ -1,57 +1,64 @@
-/*********************************************************************** 
-    Lista de Exercícios – Lógica de Programação em JavaScript (Console)
- ***********************************************************************
+// //*********************************************************************** 
+//   //  Lista de Exercícios – Lógica de Programação em JavaScript (Console)
+//  ***********************************************************************
 
 
-1. Par ou Ímpar?
-Escreva um programa que peça um número ao usuário e exiba no console se ele é par ou ímpar.
+// 1. Par ou Ímpar?
+// Escreva um programa que peça um número ao usuário e exiba no console se ele é par ou ímpar.
 
 
-📌 Dica: Use o operador % para verificar o resto da divisão.
-------------------------------------------------------------------------
+// 📌 Dica: Use o operador % para verificar o resto da divisão.
+// ------------------------------------------------------------------------
 
 
-2. Tabuada
-Peça ao usuário um número e exiba no console a tabuada desse número de 1 a 10.
+// 2. Tabuada
+// Peça ao usuário um número e exiba no console a tabuada desse número de 1 a 10.
 
 
-📌 Exemplo (se o número for 3):
-3 x 1 = 3
-3 x 2 = 6
-...
-3 x 10 = 30
-------------------------------------------------------------------------
+// 📌 Exemplo (se o número for 3):
+// 3 x 1 = 3
+// 3 x 2 = 6
+// ...
+// 3 x 10 = 30
+// ------------------------------------------------------------------------
 
 
-3. Fatorial de um Número
-Solicite um número ao usuário e exiba no console o seu fatorial.
+// 3. Fatorial de um Número
+// Solicite um número ao usuário e exiba no console o seu fatorial.
 
 
-📌 Fatorial de 5: 5! = 5 × 4 × 3 × 2 × 1 = 120
-------------------------------------------------------------------------
+// 📌 Fatorial de 5: 5! = 5 × 4 × 3 × 2 × 1 = 120
+// ------------------------------------------------------------------------
 
 
-4. Soma dos Números de um Array
-Crie um programa que tenha um array com números aleatórios e exiba no console a soma total desses números.
+// 4. Soma dos Números de um Array
+// Crie um programa que tenha um array com números aleatórios e exiba no console a soma total desses números.
 
 
-📌 Exemplo:
-let numeros = [10, 20, 30, 40];  
-// Saída: Soma = 100
-------------------------------------------------------------------------
+// 📌 Exemplo:
+// let numeros = [10, 20, 30, 40];  
+// // Saída: Soma = 100
+// ------------------------------------------------------------------------
 
 
-5. Ordenação de Números
-Peça ao usuário para inserir vários números separados por vírgula. Depois, exiba os números ordenados de forma crescente no console.
+// 5. Ordenação de Números
+// Peça ao usuário para inserir vários números separados por vírgula. Depois, exiba os números ordenados de forma crescente no console.
 
 
-📌 Exemplo:
-Entrada: 8, 3, 5, 1, 9  
-Saída: 1, 3, 5, 8, 9 
-------------------------------------------------------------------------
-*/
+// 📌 Exemplo:
+// Entrada: 8, 3, 5, 1, 9  
+// Saída: 1, 3, 5, 8, 9 
+// -----------------------------------------------------------------------
+
+//atividade 1
+const imaparpar = (num) => {
+    return num % 2 == 0 ? "O número é par!" : "O número é ímpar!";
+  };
+  console.log(imaparpar(10));
+  console.log(imaparpar(3));
+  console.log(imaparpar(2));
+
 //atividade 2
-// 02 prof
 var tabuada = 6;
 console.log(tabuada, "x 1 =", tabuada * 1);
 console.log(tabuada, "x 2 =", tabuada * 2);
@@ -79,3 +86,4 @@ var numero = [5, 2, 1, 8, 6, 9];
 console.table(numero);
 numero.sort();
 console.table(numero);
+
