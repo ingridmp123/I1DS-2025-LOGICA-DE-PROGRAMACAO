@@ -33,10 +33,9 @@ console.log("numeros impares de 0 a 100");
 for (let i = 1; i <= 100; i += 2) {
   console.log(i);
 }
-console.log("--------------------------------------")
+console.log("--------------------------------------");
 console.log("numeros pares de 0 a 100");
 for (let i = 0; i <= 100; i += 2) {
   console.log(i);
 }
 
-//Laço repetição while / do while
